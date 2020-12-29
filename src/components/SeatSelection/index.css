@@ -1,0 +1,57 @@
+.seatSelection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.seatSelection-screen {
+    padding: 10px;
+    width: 75%;
+    background-color: #1F253A;
+    color: white;
+    text-align: center;
+}
+
+.seatSelection-seatsParent {
+    padding: 40px;
+    display: flex;
+    width: 75%;
+    flex-flow: row wrap;
+}
+
+.seatSelection-sampleSeats {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.seatSelection-sampleSeatWrapper {
+    width: 75px;
+}
+
+.seatSelection-cost {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.seatSelection-modal {
+    height: 200px;
+    width: 200px;
+}

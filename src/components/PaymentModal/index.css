@@ -1,0 +1,51 @@
+  .Modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    outline: 0;
+    max-width: 480px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+  }
+
+  .modal-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .modal-cancelButton {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+  }
+
+  input {
+    height: 20px;
+    width: 180px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  .modal-successMsg {
+    font-weight: bold;
+    color: #006600;
+    font-size: 25px;
+  }

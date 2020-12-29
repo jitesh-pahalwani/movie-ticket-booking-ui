@@ -1,0 +1,35 @@
+header {
+    background-color:  #1F253A;
+    color: #eee;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.home-subHeading {
+    background-color: #2E3147;
+    color: #eee;
+    padding: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-bodyTitle {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.home-tilesParent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.home-msg {
+    text-align: center;
+    margin-top: 75px;
+}

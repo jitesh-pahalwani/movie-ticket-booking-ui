@@ -1,0 +1,22 @@
+.tileContainer {
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    background-color: #2E3147;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.tileContent {
+    background-size: 100% 100%;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.actorsText {
+    font-size: 12px;
+}

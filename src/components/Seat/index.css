@@ -1,0 +1,10 @@
+.seat {
+    height: 35px;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    flex: 0 1 calc(20% - 8px);
+    margin: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
