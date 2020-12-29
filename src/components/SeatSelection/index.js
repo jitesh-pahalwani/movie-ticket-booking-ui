@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom'
 
@@ -6,11 +6,11 @@ import './index.css';
 
 import Header from '../Header';
 import Seat from '../Seat';
-import PaymentModal from '../PaymentModal';
 import { fetchAvailabilities, setSelectedSeats, lockSelectedSeats, releaseSelectedSeats, bookSelectedSeats } from './actions';
 
 function SeatSelection({ allSeats, loading, apiError, fetchAvailabilities, setSelectedSeats, totalCost, bookSelectedSeats, lockSelectedSeats, releaseSelectedSeats, isBookingComplete }) {
     const [isModalOpen, openModal] = useState(false);
+    const PaymentModal = React.lazy(() => import('../PaymentModal'));
 
     useEffect(() => {
         fetchAvailabilities();
@@ -45,14 +45,17 @@ function SeatSelection({ allSeats, loading, apiError, fetchAvailabilities, setSe
     return (
         <div>
             {isModalOpen ?
-                <PaymentModal
-                    modalIsOpen={isModalOpen}
-                    closeModal={onPaymentModalClose}
-                    onPayClick={onPayClick}
-                    amount={totalCost}
-                    isLoading={loading}
-                    apiError={apiError}
-                    isBookingComplete={isBookingComplete} /> : null}
+                <Suspense fallback={<div className="seatSelection-msg">Loading...</div>}>
+                    <PaymentModal
+                        modalIsOpen={isModalOpen}
+                        closeModal={onPaymentModalClose}
+                        onPayClick={onPayClick}
+                        amount={totalCost}
+                        isLoading={loading}
+                        apiError={apiError}
+                        isBookingComplete={isBookingComplete} />
+                </Suspense>
+                : null}
             <Header />
             {loading ? <div className="seatSelection-msg">Loading...</div> :
                 apiError ? <div className="seatSelection-msg">An error occurred. Please try after some time.</div> :
