@@ -17,7 +17,7 @@ function Home({ fetchMovies, allMovies, history, loading, apiError, setSelectedM
 
     const showMovieInfo = (selectedMovie) => {
         setSelectedMovie(selectedMovie);
-        history.push('/details');
+        history.push('/movie-ticket-booking-ui/details');
     }
 
     const renderMovies = () => {

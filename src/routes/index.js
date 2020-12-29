@@ -6,13 +6,13 @@ import SeatSelection from '../components/SeatSelection';
 
 export const Routes = () => (
     <Router>
-        <Route exact path='/'>
+        <Route exact path='/movie-ticket-booking-ui/'>
             <Home />
         </Route>
-        <Route exact path='/details'>
+        <Route exact path='/movie-ticket-booking-ui/details'>
             <MovieDetail />
         </Route>
-        <Route exact path='/seats'>
+        <Route exact path='/movie-ticket-booking-ui/seats'>
             <SeatSelection />
         </Route>
     </Router>

@@ -4,15 +4,17 @@
     "\nsrc/components/Home/index.js\n  \u001b[1mLine 16:8:\u001b[22m  React Hook useEffect has a missing dependency: 'fetchMovies'. Either include it or remove the dependency array. If 'fetchMovies' changes too often, find the parent component that defines it and wrap that definition in useCallback  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\nsrc/components/MovieDetail/index.js\n  \u001b[1mLine 15:8:\u001b[22m  React Hook useEffect has a missing dependency: 'fetchVenues'. Either include it or remove the dependency array. If 'fetchVenues' changes too often, find the parent component that defines it and wrap that definition in useCallback  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\nsrc/components/PaymentModal/index.js\n  \u001b[1mLine 15:26:\u001b[22m  Assignments to the 'paymentTimeout' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\nsrc/components/SeatSelection/index.js\n  \u001b[1mLine 17:8:\u001b[22m  React Hook useEffect has a missing dependency: 'fetchAvailabilities'. Either include it or remove the dependency array. If 'fetchAvailabilities' changes too often, find the parent component that defines it and wrap that definition in useCallback  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\n"
   ],
   "version": "4.44.2",
-  "hash": "611ea6f67f1e0722fe4b",
-  "time": 4145,
-  "builtAt": 1609262751734,
-  "publicPath": "/",
+  "hash": "c9233a15265d74a7e0c4",
+  "time": 161,
+  "builtAt": 1609264400730,
+  "publicPath": "/movie-ticket-booking-ui/",
   "outputPath": "/Users/jitesh/Documents/movie-ticket-booking-ui/dist",
   "assetsByChunkName": {
     "main": [
       "static/js/main.chunk.js",
-      "static/js/main.chunk.js.map"
+      "main.162e3b751d3de45119d9.hot-update.js",
+      "static/js/main.chunk.js.map",
+      "main.162e3b751d3de45119d9.hot-update.js.map"
     ],
     "runtime-main": [
       "static/js/bundle.js",
@@ -21,36 +23,69 @@
   },
   "assets": [
     {
-      "name": "asset-manifest.json",
-      "size": 699,
+      "name": "162e3b751d3de45119d9.hot-update.json",
+      "size": 46,
       "chunks": [],
       "chunkNames": [],
       "info": {
-        "size": 699
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "size": 46
       },
       "emitted": true
     },
     {
-      "name": "index.html",
-      "size": 1761,
+      "name": "asset-manifest.json",
+      "size": 953,
       "chunks": [],
       "chunkNames": [],
       "info": {
-        "size": 1761
+        "size": 953
+      },
+      "emitted": true
+    },
+    {
+      "name": "main.162e3b751d3de45119d9.hot-update.js",
+      "size": 3715,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "size": 3715
+      },
+      "emitted": true
+    },
+    {
+      "name": "main.162e3b751d3de45119d9.hot-update.js.map",
+      "size": 398,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true,
+        "size": 398
       },
       "emitted": true
     },
     {
       "name": "static/js/0.chunk.js",
-      "size": 2079300,
+      "size": 2079324,
       "chunks": [
         0
       ],
       "chunkNames": [],
       "info": {
-        "size": 2079300
+        "size": 2079324
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/0.chunk.js.map",
@@ -63,7 +98,7 @@
         "development": true,
         "size": 2149815
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/1.chunk.js",
@@ -75,7 +110,7 @@
       "info": {
         "size": 57996
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/1.chunk.js.map",
@@ -88,7 +123,7 @@
         "development": true,
         "size": 63242
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/2.chunk.js",
@@ -100,7 +135,7 @@
       "info": {
         "size": 17014
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/2.chunk.js.map",
@@ -113,11 +148,11 @@
         "development": true,
         "size": 9680
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/bundle.js",
-      "size": 38809,
+      "size": 38833,
       "chunks": [
         "runtime-main"
       ],
@@ -125,13 +160,13 @@
         "runtime-main"
       ],
       "info": {
-        "size": 38809
+        "size": 38833
       },
       "emitted": true
     },
     {
       "name": "static/js/bundle.js.map",
-      "size": 40247,
+      "size": 40271,
       "chunks": [
         "runtime-main"
       ],
@@ -140,13 +175,13 @@
       ],
       "info": {
         "development": true,
-        "size": 40247
+        "size": 40271
       },
       "emitted": true
     },
     {
       "name": "static/js/main.chunk.js",
-      "size": 168930,
+      "size": 168977,
       "chunks": [
         "main"
       ],
@@ -154,13 +189,13 @@
         "main"
       ],
       "info": {
-        "size": 168930
+        "size": 168977
       },
       "emitted": true
     },
     {
       "name": "static/js/main.chunk.js.map",
-      "size": 67472,
+      "size": 67511,
       "chunks": [
         "main"
       ],
@@ -169,7 +204,7 @@
       ],
       "info": {
         "development": true,
-        "size": 67472
+        "size": 67511
       },
       "emitted": true
     }
@@ -188,7 +223,9 @@
         "static/js/0.chunk.js",
         "static/js/0.chunk.js.map",
         "static/js/main.chunk.js",
-        "static/js/main.chunk.js.map"
+        "main.162e3b751d3de45119d9.hot-update.js",
+        "static/js/main.chunk.js.map",
+        "main.162e3b751d3de45119d9.hot-update.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -207,7 +244,9 @@
         "static/js/0.chunk.js",
         "static/js/0.chunk.js.map",
         "static/js/main.chunk.js",
-        "static/js/main.chunk.js.map"
+        "main.162e3b751d3de45119d9.hot-update.js",
+        "static/js/main.chunk.js.map",
+        "main.162e3b751d3de45119d9.hot-update.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -216,7 +255,7 @@
   "chunks": [
     {
       "id": 0,
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: vendors)",
@@ -226,7 +265,7 @@
         "static/js/0.chunk.js",
         "static/js/0.chunk.js.map"
       ],
-      "hash": "563fc50f9c79d562d58d",
+      "hash": "e567649fef173298effd",
       "siblings": [
         "main",
         "runtime-main"
@@ -246,15 +285,15 @@
           "index2": 57,
           "size": 397,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
             0
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-          "issuerId": "./node_modules/react-redux/es/components/connectAdvanced.js",
-          "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "issuerId": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "issuerName": "./node_modules/react-router-dom/esm/react-router-dom.js",
           "issuerPath": [
             {
               "id": 0,
@@ -272,14 +311,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": "./node_modules/react-redux/es/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-              "name": "./node_modules/react-redux/es/index.js"
+              "id": "./src/routes/index.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+              "name": "./src/routes/index.js"
             },
             {
-              "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-              "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+              "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+              "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
             }
           ],
           "failed": false,
@@ -617,7 +656,7 @@
           "index2": 50,
           "size": 204,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -790,15 +829,15 @@
           "index2": 66,
           "size": 350,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
             0
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-          "issuerId": "./node_modules/react-redux/es/components/connectAdvanced.js",
-          "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "issuerId": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "issuerName": "./node_modules/react-router-dom/esm/react-router-dom.js",
           "issuerPath": [
             {
               "id": 0,
@@ -816,14 +855,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": "./node_modules/react-redux/es/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-              "name": "./node_modules/react-redux/es/index.js"
+              "id": "./src/routes/index.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+              "name": "./src/routes/index.js"
             },
             {
-              "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-              "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+              "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+              "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
             }
           ],
           "failed": false,
@@ -990,7 +1029,7 @@
           "index2": 9,
           "size": 493,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -1042,7 +1081,7 @@
           "index2": 6,
           "size": 512,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -1090,7 +1129,7 @@
           "index2": 33,
           "size": 5755,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -1318,7 +1357,7 @@
           "index2": 123,
           "size": 19393,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2659,7 +2698,7 @@
           "index2": 125,
           "size": 37890,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2757,7 +2796,7 @@
           "index2": 130,
           "size": 11210,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2857,7 +2896,7 @@
           "index2": 124,
           "size": 359,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2932,7 +2971,7 @@
           "index2": 122,
           "size": 350,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -3024,7 +3063,7 @@
           "index2": 121,
           "size": 1992,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -3945,7 +3984,7 @@
           "index2": 120,
           "size": 843,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4335,7 +4374,7 @@
           "index2": 10,
           "size": 314,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4388,7 +4427,7 @@
           "index2": 26,
           "size": 3848,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4446,7 +4485,7 @@
           "index2": 29,
           "size": 6703,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4499,7 +4538,7 @@
           "index2": 28,
           "size": 3292,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4557,7 +4596,7 @@
           "index2": 23,
           "size": 17800,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4634,7 +4673,7 @@
           "index2": 25,
           "size": 1812,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4697,7 +4736,7 @@
           "index2": 24,
           "size": 2324,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4765,7 +4804,7 @@
           "index2": 22,
           "size": 4613,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -4838,7 +4877,7 @@
           "index2": 47,
           "size": 2517,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5031,7 +5070,7 @@
           "index2": 21,
           "size": 230,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5089,7 +5128,7 @@
           "index2": 2,
           "size": 13533,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5142,7 +5181,7 @@
           "index2": 62,
           "size": 28739,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5312,7 +5351,7 @@
           "index2": 67,
           "size": 2744,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5411,7 +5450,7 @@
           "index2": 63,
           "size": 5049,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5499,7 +5538,7 @@
           "index2": 13,
           "size": 15653,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5552,7 +5591,7 @@
           "index2": 35,
           "size": 2226,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5637,7 +5676,7 @@
           "index2": 20,
           "size": 5081,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5699,7 +5738,7 @@
           "index2": 54,
           "size": 3632,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5725,14 +5764,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": "./node_modules/react-redux/es/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-              "name": "./node_modules/react-redux/es/index.js"
+              "id": "./src/routes/index.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+              "name": "./src/routes/index.js"
             },
             {
-              "id": "./node_modules/react-redux/es/components/Provider.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-              "name": "./node_modules/react-redux/es/components/Provider.js"
+              "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+              "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
             },
             {
               "id": "./node_modules/prop-types/index.js",
@@ -5772,7 +5811,7 @@
           "index2": 55,
           "size": 21333,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -5798,14 +5837,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": "./node_modules/react-redux/es/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-              "name": "./node_modules/react-redux/es/index.js"
+              "id": "./src/routes/index.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+              "name": "./src/routes/index.js"
             },
             {
-              "id": "./node_modules/react-redux/es/components/Provider.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-              "name": "./node_modules/react-redux/es/components/Provider.js"
+              "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+              "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
             },
             {
               "id": "./node_modules/prop-types/index.js",
@@ -5840,15 +5879,15 @@
           "index2": 56,
           "size": 707,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
             0
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-          "issuerId": "./node_modules/react-redux/es/components/Provider.js",
-          "issuerName": "./node_modules/react-redux/es/components/Provider.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "issuerId": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "issuerName": "./node_modules/react-router-dom/esm/react-router-dom.js",
           "issuerPath": [
             {
               "id": 0,
@@ -5866,14 +5905,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": "./node_modules/react-redux/es/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-              "name": "./node_modules/react-redux/es/index.js"
+              "id": "./src/routes/index.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+              "name": "./src/routes/index.js"
             },
             {
-              "id": "./node_modules/react-redux/es/components/Provider.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-              "name": "./node_modules/react-redux/es/components/Provider.js"
+              "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+              "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
             }
           ],
           "failed": false,
@@ -6659,7 +6698,7 @@
           "index2": 53,
           "size": 311,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6685,14 +6724,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": "./node_modules/react-redux/es/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-              "name": "./node_modules/react-redux/es/index.js"
+              "id": "./src/routes/index.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+              "name": "./src/routes/index.js"
             },
             {
-              "id": "./node_modules/react-redux/es/components/Provider.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-              "name": "./node_modules/react-redux/es/components/Provider.js"
+              "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+              "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
             },
             {
               "id": "./node_modules/prop-types/index.js",
@@ -6741,7 +6780,7 @@
           "index2": 15,
           "size": 2532,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6799,7 +6838,7 @@
           "index2": 16,
           "size": 2541,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6857,7 +6896,7 @@
           "index2": 17,
           "size": 126,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6910,7 +6949,7 @@
           "index2": 30,
           "size": 3919,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6958,7 +6997,7 @@
           "index2": 19,
           "size": 329,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7006,7 +7045,7 @@
           "index2": 34,
           "size": 445,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7234,7 +7273,7 @@
           "index2": 32,
           "size": 8148,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7286,7 +7325,7 @@
           "index2": 44,
           "size": 980465,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7339,7 +7378,7 @@
           "index2": 45,
           "size": 1352,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7423,7 +7462,7 @@
           "index2": 31,
           "size": 388147,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7480,7 +7519,7 @@
           "index2": 51,
           "size": 7573,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7548,7 +7587,7 @@
           "index2": 52,
           "size": 195,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7674,7 +7713,7 @@
           "index2": 70,
           "size": 228,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7879,7 +7918,7 @@
           "index2": 73,
           "size": 1457,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7948,7 +7987,7 @@
           "index2": 75,
           "size": 18996,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8035,7 +8074,7 @@
           "index2": 90,
           "size": 4964,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8105,7 +8144,7 @@
           "index2": 85,
           "size": 915,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8182,7 +8221,7 @@
           "index2": 86,
           "size": 504,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8258,7 +8297,7 @@
           "index2": 87,
           "size": 1403,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8336,7 +8375,7 @@
           "index2": 89,
           "size": 3938,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8412,7 +8451,7 @@
           "index2": 88,
           "size": 787,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8491,7 +8530,7 @@
           "index2": 84,
           "size": 2779,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8617,7 +8656,7 @@
           "index2": 93,
           "size": 1318,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8696,7 +8735,7 @@
           "index2": 91,
           "size": 841,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8788,7 +8827,7 @@
           "index2": 94,
           "size": 4471,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8867,7 +8906,7 @@
           "index2": 92,
           "size": 1157,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -8973,7 +9012,7 @@
           "index2": 96,
           "size": 776,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9102,15 +9141,15 @@
           "index2": 72,
           "size": 3001,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
             0
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-          "issuerId": "./node_modules/react-redux/es/components/connectAdvanced.js",
-          "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
+          "issuerId": "./node_modules/react-redux/es/components/Provider.js",
+          "issuerName": "./node_modules/react-redux/es/components/Provider.js",
           "issuerPath": [
             {
               "id": 0,
@@ -9133,9 +9172,9 @@
               "name": "./node_modules/react-redux/es/index.js"
             },
             {
-              "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-              "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+              "id": "./node_modules/react-redux/es/components/Provider.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
+              "name": "./node_modules/react-redux/es/components/Provider.js"
             }
           ],
           "failed": false,
@@ -9212,7 +9251,7 @@
           "index2": 71,
           "size": 413,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9300,7 +9339,7 @@
           "index2": 81,
           "size": 473,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9384,7 +9423,7 @@
           "index2": 95,
           "size": 94,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9462,7 +9501,7 @@
           "index2": 76,
           "size": 654,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9567,7 +9606,7 @@
           "index2": 74,
           "size": 867,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9668,7 +9707,7 @@
           "index2": 83,
           "size": 305,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9765,15 +9804,15 @@
           "index2": 82,
           "size": 640,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
             0
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
-          "issuerId": "./node_modules/react-redux/es/connect/verifySubselectors.js",
-          "issuerName": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "issuerId": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "issuerName": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
           "issuerPath": [
             {
               "id": 0,
@@ -9801,14 +9840,14 @@
               "name": "./node_modules/react-redux/es/connect/connect.js"
             },
             {
-              "id": "./node_modules/react-redux/es/connect/selectorFactory.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/selectorFactory.js",
-              "name": "./node_modules/react-redux/es/connect/selectorFactory.js"
+              "id": "./node_modules/react-redux/es/connect/mergeProps.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/mergeProps.js",
+              "name": "./node_modules/react-redux/es/connect/mergeProps.js"
             },
             {
-              "id": "./node_modules/react-redux/es/connect/verifySubselectors.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
-              "name": "./node_modules/react-redux/es/connect/verifySubselectors.js"
+              "id": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js"
             }
           ],
           "failed": false,
@@ -9867,7 +9906,7 @@
           "index2": 7,
           "size": 23198,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -9883,9 +9922,9 @@
               "name": "multi ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js"
             },
             {
-              "id": "./src/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js",
-              "name": "./src/index.js"
+              "id": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+              "name": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js"
             },
             {
               "id": "./node_modules/react-refresh/runtime.js",
@@ -9920,15 +9959,15 @@
           "index2": 8,
           "size": 221,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
             0
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js",
-          "issuerId": "./src/index.js",
-          "issuerName": "./src/index.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+          "issuerId": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+          "issuerName": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
           "issuerPath": [
             {
               "id": 0,
@@ -9936,9 +9975,9 @@
               "name": "multi ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js"
             },
             {
-              "id": "./src/index.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js",
-              "name": "./src/index.js"
+              "id": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+              "name": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js"
             }
           ],
           "failed": false,
@@ -10166,7 +10205,7 @@
           "index2": 69,
           "size": 10275,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -10333,7 +10372,7 @@
           "index2": 68,
           "size": 25479,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -10593,7 +10632,7 @@
           "index2": 64,
           "size": 119,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -10666,7 +10705,7 @@
           "index2": 65,
           "size": 10954,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -10752,7 +10791,7 @@
           "index2": 38,
           "size": 41615,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -10805,7 +10844,7 @@
           "index2": 36,
           "size": 79754,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -10858,7 +10897,7 @@
           "index2": 37,
           "size": 189,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -11887,7 +11926,7 @@
           "index2": 39,
           "size": 221,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -12736,7 +12775,7 @@
           "index2": 126,
           "size": 141,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -12811,7 +12850,7 @@
           "index2": 131,
           "size": 41,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13077,7 +13116,7 @@
           "index2": 80,
           "size": 24155,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13209,7 +13248,7 @@
           "index2": 58,
           "size": 1737,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13288,7 +13327,7 @@
           "index2": 42,
           "size": 10145,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13351,7 +13390,7 @@
           "index2": 40,
           "size": 25891,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13414,7 +13453,7 @@
           "index2": 41,
           "size": 197,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13472,7 +13511,7 @@
           "index2": 43,
           "size": 213,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13530,7 +13569,7 @@
           "index2": 11,
           "size": 154,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13578,7 +13617,7 @@
           "index2": 46,
           "size": 6827,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13694,7 +13733,7 @@
           "index2": 27,
           "size": 69,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13752,7 +13791,7 @@
           "index2": 79,
           "size": 401,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13830,7 +13869,7 @@
           "index2": 78,
           "size": 356,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -13904,7 +13943,7 @@
           "index2": 61,
           "size": 305,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14113,7 +14152,7 @@
           "index2": 60,
           "size": 361,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14457,7 +14496,7 @@
           "index2": 18,
           "size": 22776,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14505,7 +14544,7 @@
           "index2": 14,
           "size": 315,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14558,7 +14597,7 @@
           "index2": 59,
           "size": 827,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14637,7 +14676,7 @@
           "index2": 5,
           "size": 475,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14717,7 +14756,7 @@
           "index2": 77,
           "size": 625,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14780,7 +14819,7 @@
           "index2": 12,
           "size": 546,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14847,7 +14886,7 @@
           "index2": 4,
           "size": 1673,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14890,7 +14929,7 @@
           "index2": 3,
           "size": 75,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14938,7 +14977,7 @@
           "index2": 1,
           "size": 1346,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -14986,7 +15025,7 @@
           "index2": 0,
           "size": 1406,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15050,7 +15089,7 @@
     },
     {
       "id": 1,
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: vendors)",
@@ -15080,7 +15119,7 @@
           "index2": 143,
           "size": 870,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15163,7 +15202,7 @@
           "index2": 150,
           "size": 5818,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15243,7 +15282,7 @@
           "index2": 151,
           "size": 10900,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15316,7 +15355,7 @@
           "index2": 149,
           "size": 15575,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15394,7 +15433,7 @@
           "index2": 145,
           "size": 1995,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15481,7 +15520,7 @@
           "index2": 148,
           "size": 1635,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15564,7 +15603,7 @@
           "index2": 146,
           "size": 3357,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15647,7 +15686,7 @@
           "index2": 140,
           "size": 2722,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15730,7 +15769,7 @@
           "index2": 147,
           "size": 1775,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15822,7 +15861,7 @@
           "index2": 144,
           "size": 468,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -15918,7 +15957,7 @@
           "index2": 141,
           "size": 2252,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16001,7 +16040,7 @@
           "index2": 139,
           "size": 1900,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16098,7 +16137,7 @@
           "index2": 152,
           "size": 349,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16175,7 +16214,7 @@
           "index2": 142,
           "size": 1742,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16266,7 +16305,7 @@
     },
     {
       "id": 2,
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "size": 11804,
@@ -16295,7 +16334,7 @@
           "index2": 153,
           "size": 2751,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16388,7 +16427,7 @@
           "index2": 154,
           "size": 2069,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16456,7 +16495,7 @@
           "index2": 155,
           "size": 6984,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16532,15 +16571,17 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 111409,
+      "size": 111456,
       "names": [
         "main"
       ],
       "files": [
         "static/js/main.chunk.js",
-        "static/js/main.chunk.js.map"
+        "main.162e3b751d3de45119d9.hot-update.js",
+        "static/js/main.chunk.js.map",
+        "main.162e3b751d3de45119d9.hot-update.js.map"
       ],
-      "hash": "1853bca1a5c3cdac6586",
+      "hash": "2eea4e9e95adcdb03d9c",
       "siblings": [
         0,
         "runtime-main"
@@ -16559,7 +16600,7 @@
           "index": 0,
           "index2": 138,
           "size": 64,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16594,7 +16635,7 @@
           "index2": 99,
           "size": 748,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16687,7 +16728,7 @@
           "index2": 97,
           "size": 1901,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16775,7 +16816,7 @@
           "index2": 110,
           "size": 5066,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16863,7 +16904,7 @@
           "index2": 102,
           "size": 1402,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -16956,7 +16997,7 @@
           "index2": 115,
           "size": 1049,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17049,7 +17090,7 @@
           "index2": 113,
           "size": 2902,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17137,7 +17178,7 @@
           "index2": 48,
           "size": 999,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17210,7 +17251,7 @@
           "index2": 136,
           "size": 3535,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17269,7 +17310,7 @@
           "index2": 100,
           "size": 2069,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17337,7 +17378,7 @@
           "index2": 101,
           "size": 3384,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17447,7 +17488,7 @@
           "index2": 106,
           "size": 2798,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17522,7 +17563,7 @@
           "index2": 105,
           "size": 2771,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17677,7 +17718,7 @@
           "index2": 98,
           "size": 2069,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17738,9 +17779,9 @@
           "name": "./src/components/Home/index.js",
           "index": 74,
           "index2": 109,
-          "size": 5329,
+          "size": 5353,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17809,7 +17850,7 @@
           "index2": 127,
           "size": 3154,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17878,7 +17919,7 @@
           "index2": 133,
           "size": 3114,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -17947,7 +17988,7 @@
           "index2": 111,
           "size": 2069,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -18008,9 +18049,9 @@
           "name": "./src/components/MovieDetail/index.js",
           "index": 114,
           "index2": 112,
-          "size": 8773,
+          "size": 8797,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -18079,7 +18120,7 @@
           "index2": 103,
           "size": 2069,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -18147,7 +18188,7 @@
           "index2": 104,
           "size": 3761,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -18221,7 +18262,7 @@
           "index2": 116,
           "size": 2069,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -18289,7 +18330,7 @@
           "index2": 117,
           "size": 3599,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -18390,7 +18431,7 @@
           "index2": 108,
           "size": 4412,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -18558,15 +18599,15 @@
           "index2": 107,
           "size": 3227,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
             "main"
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/saga.js",
-          "issuerId": "./src/components/SeatSelection/saga.js",
-          "issuerName": "./src/components/SeatSelection/saga.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+          "issuerId": "./src/components/SeatSelection/reducer.js",
+          "issuerName": "./src/components/SeatSelection/reducer.js",
           "issuerPath": [
             {
               "id": 0,
@@ -18584,14 +18625,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": "./src/rootSaga.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/rootSaga.js",
-              "name": "./src/rootSaga.js"
+              "id": "./src/mainReducer.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/mainReducer.js",
+              "name": "./src/mainReducer.js"
             },
             {
-              "id": "./src/components/SeatSelection/saga.js",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/saga.js",
-              "name": "./src/components/SeatSelection/saga.js"
+              "id": "./src/components/SeatSelection/reducer.js",
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+              "name": "./src/components/SeatSelection/reducer.js"
             }
           ],
           "failed": false,
@@ -18956,7 +18997,7 @@
           "index2": 114,
           "size": 2069,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19019,7 +19060,7 @@
           "index2": 118,
           "size": 9519,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19088,7 +19129,7 @@
           "index2": 128,
           "size": 5045,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19157,7 +19198,7 @@
           "index2": 134,
           "size": 4858,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19224,7 +19265,7 @@
           "name": "./src/constants.js",
           "index": 137,
           "index2": 132,
-          "size": 2723,
+          "size": 2650,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -19336,7 +19377,7 @@
           "index2": 49,
           "size": 2027,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19384,7 +19425,7 @@
           "index2": 137,
           "size": 3117,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19436,7 +19477,7 @@
           "index2": 129,
           "size": 2843,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19500,7 +19541,7 @@
           "index2": 135,
           "size": 2781,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19562,9 +19603,9 @@
           "name": "./src/routes/index.js",
           "index": 53,
           "index2": 119,
-          "size": 4094,
+          "size": 4166,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -19646,7 +19687,7 @@
         "static/js/bundle.js",
         "static/js/bundle.js.map"
       ],
-      "hash": "be715d43a96fb95b14fb",
+      "hash": "639f481248d3ece20428",
       "siblings": [
         0,
         "main"
@@ -19679,7 +19720,7 @@
       "index": null,
       "index2": null,
       "size": 52,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [],
@@ -19711,7 +19752,7 @@
       "index": 0,
       "index2": 138,
       "size": 64,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -19746,15 +19787,15 @@
       "index2": 57,
       "size": 397,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-      "issuerId": "./node_modules/react-redux/es/components/connectAdvanced.js",
-      "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+      "issuerId": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "issuerName": "./node_modules/react-router-dom/esm/react-router-dom.js",
       "issuerPath": [
         {
           "id": 0,
@@ -19772,14 +19813,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": "./node_modules/react-redux/es/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-          "name": "./node_modules/react-redux/es/index.js"
+          "id": "./src/routes/index.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+          "name": "./src/routes/index.js"
         },
         {
-          "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-          "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+          "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
         }
       ],
       "failed": false,
@@ -20117,7 +20158,7 @@
       "index2": 50,
       "size": 204,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20290,15 +20331,15 @@
       "index2": 66,
       "size": 350,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-      "issuerId": "./node_modules/react-redux/es/components/connectAdvanced.js",
-      "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+      "issuerId": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "issuerName": "./node_modules/react-router-dom/esm/react-router-dom.js",
       "issuerPath": [
         {
           "id": 0,
@@ -20316,14 +20357,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": "./node_modules/react-redux/es/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-          "name": "./node_modules/react-redux/es/index.js"
+          "id": "./src/routes/index.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+          "name": "./src/routes/index.js"
         },
         {
-          "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-          "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+          "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
         }
       ],
       "failed": false,
@@ -20490,7 +20531,7 @@
       "index2": 9,
       "size": 493,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20542,7 +20583,7 @@
       "index2": 6,
       "size": 512,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20590,7 +20631,7 @@
       "index2": 33,
       "size": 5755,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -20818,7 +20859,7 @@
       "index2": 123,
       "size": 19393,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22159,7 +22200,7 @@
       "index2": 125,
       "size": 37890,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22257,7 +22298,7 @@
       "index2": 130,
       "size": 11210,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22357,7 +22398,7 @@
       "index2": 124,
       "size": 359,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22432,7 +22473,7 @@
       "index2": 122,
       "size": 350,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -22524,7 +22565,7 @@
       "index2": 121,
       "size": 1992,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23445,7 +23486,7 @@
       "index2": 120,
       "size": 843,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23835,7 +23876,7 @@
       "index2": 10,
       "size": 314,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23888,7 +23929,7 @@
       "index2": 26,
       "size": 3848,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23946,7 +23987,7 @@
       "index2": 29,
       "size": 6703,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -23999,7 +24040,7 @@
       "index2": 28,
       "size": 3292,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24057,7 +24098,7 @@
       "index2": 23,
       "size": 17800,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24134,7 +24175,7 @@
       "index2": 25,
       "size": 1812,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24197,7 +24238,7 @@
       "index2": 24,
       "size": 2324,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24265,7 +24306,7 @@
       "index2": 22,
       "size": 4613,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24338,7 +24379,7 @@
       "index2": 99,
       "size": 748,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24431,7 +24472,7 @@
       "index2": 97,
       "size": 1901,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24519,7 +24560,7 @@
       "index2": 110,
       "size": 5066,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24607,7 +24648,7 @@
       "index2": 102,
       "size": 1402,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24700,7 +24741,7 @@
       "index2": 153,
       "size": 2751,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24793,7 +24834,7 @@
       "index2": 115,
       "size": 1049,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24886,7 +24927,7 @@
       "index2": 113,
       "size": 2902,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24974,7 +25015,7 @@
       "index2": 48,
       "size": 999,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25047,7 +25088,7 @@
       "index2": 47,
       "size": 2517,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25240,7 +25281,7 @@
       "index2": 21,
       "size": 230,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25298,7 +25339,7 @@
       "index2": 2,
       "size": 13533,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25351,7 +25392,7 @@
       "index2": 143,
       "size": 870,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25434,7 +25475,7 @@
       "index2": 62,
       "size": 28739,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25604,7 +25645,7 @@
       "index2": 67,
       "size": 2744,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25703,7 +25744,7 @@
       "index2": 63,
       "size": 5049,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25791,7 +25832,7 @@
       "index2": 13,
       "size": 15653,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25844,7 +25885,7 @@
       "index2": 35,
       "size": 2226,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25929,7 +25970,7 @@
       "index2": 20,
       "size": 5081,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25991,7 +26032,7 @@
       "index2": 54,
       "size": 3632,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26017,14 +26058,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": "./node_modules/react-redux/es/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-          "name": "./node_modules/react-redux/es/index.js"
+          "id": "./src/routes/index.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+          "name": "./src/routes/index.js"
         },
         {
-          "id": "./node_modules/react-redux/es/components/Provider.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-          "name": "./node_modules/react-redux/es/components/Provider.js"
+          "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
         },
         {
           "id": "./node_modules/prop-types/index.js",
@@ -26064,7 +26105,7 @@
       "index2": 55,
       "size": 21333,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26090,14 +26131,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": "./node_modules/react-redux/es/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-          "name": "./node_modules/react-redux/es/index.js"
+          "id": "./src/routes/index.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+          "name": "./src/routes/index.js"
         },
         {
-          "id": "./node_modules/react-redux/es/components/Provider.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-          "name": "./node_modules/react-redux/es/components/Provider.js"
+          "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
         },
         {
           "id": "./node_modules/prop-types/index.js",
@@ -26132,15 +26173,15 @@
       "index2": 56,
       "size": 707,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-      "issuerId": "./node_modules/react-redux/es/components/Provider.js",
-      "issuerName": "./node_modules/react-redux/es/components/Provider.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+      "issuerId": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "issuerName": "./node_modules/react-router-dom/esm/react-router-dom.js",
       "issuerPath": [
         {
           "id": 0,
@@ -26158,14 +26199,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": "./node_modules/react-redux/es/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-          "name": "./node_modules/react-redux/es/index.js"
+          "id": "./src/routes/index.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+          "name": "./src/routes/index.js"
         },
         {
-          "id": "./node_modules/react-redux/es/components/Provider.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-          "name": "./node_modules/react-redux/es/components/Provider.js"
+          "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
         }
       ],
       "failed": false,
@@ -26951,7 +26992,7 @@
       "index2": 53,
       "size": 311,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -26977,14 +27018,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": "./node_modules/react-redux/es/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js",
-          "name": "./node_modules/react-redux/es/index.js"
+          "id": "./src/routes/index.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/routes/index.js",
+          "name": "./src/routes/index.js"
         },
         {
-          "id": "./node_modules/react-redux/es/components/Provider.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
-          "name": "./node_modules/react-redux/es/components/Provider.js"
+          "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-router-dom/esm/react-router-dom.js",
+          "name": "./node_modules/react-router-dom/esm/react-router-dom.js"
         },
         {
           "id": "./node_modules/prop-types/index.js",
@@ -27033,7 +27074,7 @@
       "index2": 15,
       "size": 2532,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27091,7 +27132,7 @@
       "index2": 16,
       "size": 2541,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27149,7 +27190,7 @@
       "index2": 17,
       "size": 126,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27202,7 +27243,7 @@
       "index2": 30,
       "size": 3919,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27250,7 +27291,7 @@
       "index2": 19,
       "size": 329,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27298,7 +27339,7 @@
       "index2": 34,
       "size": 445,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27526,7 +27567,7 @@
       "index2": 32,
       "size": 8148,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27578,7 +27619,7 @@
       "index2": 44,
       "size": 980465,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27631,7 +27672,7 @@
       "index2": 45,
       "size": 1352,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27715,7 +27756,7 @@
       "index2": 31,
       "size": 388147,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27772,7 +27813,7 @@
       "index2": 51,
       "size": 7573,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27840,7 +27881,7 @@
       "index2": 52,
       "size": 195,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27966,7 +28007,7 @@
       "index2": 150,
       "size": 5818,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28046,7 +28087,7 @@
       "index2": 151,
       "size": 10900,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28119,7 +28160,7 @@
       "index2": 149,
       "size": 15575,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28197,7 +28238,7 @@
       "index2": 145,
       "size": 1995,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28284,7 +28325,7 @@
       "index2": 148,
       "size": 1635,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28367,7 +28408,7 @@
       "index2": 146,
       "size": 3357,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28450,7 +28491,7 @@
       "index2": 140,
       "size": 2722,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28533,7 +28574,7 @@
       "index2": 147,
       "size": 1775,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28625,7 +28666,7 @@
       "index2": 144,
       "size": 468,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28721,7 +28762,7 @@
       "index2": 141,
       "size": 2252,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28804,7 +28845,7 @@
       "index2": 139,
       "size": 1900,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28901,7 +28942,7 @@
       "index2": 152,
       "size": 349,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -28978,7 +29019,7 @@
       "index2": 70,
       "size": 228,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29183,7 +29224,7 @@
       "index2": 73,
       "size": 1457,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29252,7 +29293,7 @@
       "index2": 75,
       "size": 18996,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29339,7 +29380,7 @@
       "index2": 90,
       "size": 4964,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29409,7 +29450,7 @@
       "index2": 85,
       "size": 915,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29486,7 +29527,7 @@
       "index2": 86,
       "size": 504,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29562,7 +29603,7 @@
       "index2": 87,
       "size": 1403,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29640,7 +29681,7 @@
       "index2": 89,
       "size": 3938,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29716,7 +29757,7 @@
       "index2": 88,
       "size": 787,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29795,7 +29836,7 @@
       "index2": 84,
       "size": 2779,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -29921,7 +29962,7 @@
       "index2": 93,
       "size": 1318,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30000,7 +30041,7 @@
       "index2": 91,
       "size": 841,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30092,7 +30133,7 @@
       "index2": 94,
       "size": 4471,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30171,7 +30212,7 @@
       "index2": 92,
       "size": 1157,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30277,7 +30318,7 @@
       "index2": 96,
       "size": 776,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30406,15 +30447,15 @@
       "index2": 72,
       "size": 3001,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-      "issuerId": "./node_modules/react-redux/es/components/connectAdvanced.js",
-      "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
+      "issuerId": "./node_modules/react-redux/es/components/Provider.js",
+      "issuerName": "./node_modules/react-redux/es/components/Provider.js",
       "issuerPath": [
         {
           "id": 0,
@@ -30437,9 +30478,9 @@
           "name": "./node_modules/react-redux/es/index.js"
         },
         {
-          "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-          "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+          "id": "./node_modules/react-redux/es/components/Provider.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/Provider.js",
+          "name": "./node_modules/react-redux/es/components/Provider.js"
         }
       ],
       "failed": false,
@@ -30516,7 +30557,7 @@
       "index2": 71,
       "size": 413,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30604,7 +30645,7 @@
       "index2": 81,
       "size": 473,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30688,7 +30729,7 @@
       "index2": 95,
       "size": 94,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30766,7 +30807,7 @@
       "index2": 76,
       "size": 654,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30871,7 +30912,7 @@
       "index2": 74,
       "size": 867,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -30972,7 +31013,7 @@
       "index2": 83,
       "size": 305,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31069,15 +31110,15 @@
       "index2": 82,
       "size": 640,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
-      "issuerId": "./node_modules/react-redux/es/connect/verifySubselectors.js",
-      "issuerName": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "issuerId": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "issuerName": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
       "issuerPath": [
         {
           "id": 0,
@@ -31105,14 +31146,14 @@
           "name": "./node_modules/react-redux/es/connect/connect.js"
         },
         {
-          "id": "./node_modules/react-redux/es/connect/selectorFactory.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/selectorFactory.js",
-          "name": "./node_modules/react-redux/es/connect/selectorFactory.js"
+          "id": "./node_modules/react-redux/es/connect/mergeProps.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/mergeProps.js",
+          "name": "./node_modules/react-redux/es/connect/mergeProps.js"
         },
         {
-          "id": "./node_modules/react-redux/es/connect/verifySubselectors.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
-          "name": "./node_modules/react-redux/es/connect/verifySubselectors.js"
+          "id": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js"
         }
       ],
       "failed": false,
@@ -31171,7 +31212,7 @@
       "index2": 7,
       "size": 23198,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31187,9 +31228,9 @@
           "name": "multi ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js"
         },
         {
-          "id": "./src/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js",
-          "name": "./src/index.js"
+          "id": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+          "name": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js"
         },
         {
           "id": "./node_modules/react-refresh/runtime.js",
@@ -31224,15 +31265,15 @@
       "index2": 8,
       "size": 221,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         0
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js",
-      "issuerId": "./src/index.js",
-      "issuerName": "./src/index.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+      "issuerId": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+      "issuerName": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
       "issuerPath": [
         {
           "id": 0,
@@ -31240,9 +31281,9 @@
           "name": "multi ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js"
         },
         {
-          "id": "./src/index.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js",
-          "name": "./src/index.js"
+          "id": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js",
+          "name": "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js"
         }
       ],
       "failed": false,
@@ -31470,7 +31511,7 @@
       "index2": 69,
       "size": 10275,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31637,7 +31678,7 @@
       "index2": 68,
       "size": 25479,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31897,7 +31938,7 @@
       "index2": 64,
       "size": 119,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -31970,7 +32011,7 @@
       "index2": 65,
       "size": 10954,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32056,7 +32097,7 @@
       "index2": 38,
       "size": 41615,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32109,7 +32150,7 @@
       "index2": 36,
       "size": 79754,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -32162,7 +32203,7 @@
       "index2": 37,
       "size": 189,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -33191,7 +33232,7 @@
       "index2": 39,
       "size": 221,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34040,7 +34081,7 @@
       "index2": 126,
       "size": 141,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34115,7 +34156,7 @@
       "index2": 131,
       "size": 41,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34381,7 +34422,7 @@
       "index2": 80,
       "size": 24155,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34513,7 +34554,7 @@
       "index2": 58,
       "size": 1737,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34592,7 +34633,7 @@
       "index2": 42,
       "size": 10145,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34655,7 +34696,7 @@
       "index2": 40,
       "size": 25891,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34718,7 +34759,7 @@
       "index2": 41,
       "size": 197,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34776,7 +34817,7 @@
       "index2": 43,
       "size": 213,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34834,7 +34875,7 @@
       "index2": 11,
       "size": 154,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34882,7 +34923,7 @@
       "index2": 46,
       "size": 6827,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -34998,7 +35039,7 @@
       "index2": 27,
       "size": 69,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35056,7 +35097,7 @@
       "index2": 79,
       "size": 401,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35134,7 +35175,7 @@
       "index2": 78,
       "size": 356,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35208,7 +35249,7 @@
       "index2": 61,
       "size": 305,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35417,7 +35458,7 @@
       "index2": 60,
       "size": 361,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35761,7 +35802,7 @@
       "index2": 18,
       "size": 22776,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35809,7 +35850,7 @@
       "index2": 14,
       "size": 315,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35862,7 +35903,7 @@
       "index2": 59,
       "size": 827,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -35941,7 +35982,7 @@
       "index2": 142,
       "size": 1742,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36024,7 +36065,7 @@
       "index2": 5,
       "size": 475,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36104,7 +36145,7 @@
       "index2": 77,
       "size": 625,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36167,7 +36208,7 @@
       "index2": 12,
       "size": 546,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36234,7 +36275,7 @@
       "index2": 4,
       "size": 1673,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36277,7 +36318,7 @@
       "index2": 3,
       "size": 75,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36325,7 +36366,7 @@
       "index2": 1,
       "size": 1346,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36373,7 +36414,7 @@
       "index2": 0,
       "size": 1406,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36430,7 +36471,7 @@
       "index2": 136,
       "size": 3535,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36489,7 +36530,7 @@
       "index2": 100,
       "size": 2069,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36557,7 +36598,7 @@
       "index2": 101,
       "size": 3384,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36667,7 +36708,7 @@
       "index2": 106,
       "size": 2798,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36742,7 +36783,7 @@
       "index2": 105,
       "size": 2771,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36897,7 +36938,7 @@
       "index2": 98,
       "size": 2069,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -36958,9 +36999,9 @@
       "name": "./src/components/Home/index.js",
       "index": 74,
       "index2": 109,
-      "size": 5329,
+      "size": 5353,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37029,7 +37070,7 @@
       "index2": 127,
       "size": 3154,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37098,7 +37139,7 @@
       "index2": 133,
       "size": 3114,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37167,7 +37208,7 @@
       "index2": 111,
       "size": 2069,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37228,9 +37269,9 @@
       "name": "./src/components/MovieDetail/index.js",
       "index": 114,
       "index2": 112,
-      "size": 8773,
+      "size": 8797,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37299,7 +37340,7 @@
       "index2": 103,
       "size": 2069,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37367,7 +37408,7 @@
       "index2": 104,
       "size": 3761,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37441,7 +37482,7 @@
       "index2": 154,
       "size": 2069,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37509,7 +37550,7 @@
       "index2": 155,
       "size": 6984,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37574,7 +37615,7 @@
       "index2": 116,
       "size": 2069,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37642,7 +37683,7 @@
       "index2": 117,
       "size": 3599,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37743,7 +37784,7 @@
       "index2": 108,
       "size": 4412,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -37911,15 +37952,15 @@
       "index2": 107,
       "size": 3227,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
         "main"
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/saga.js",
-      "issuerId": "./src/components/SeatSelection/saga.js",
-      "issuerName": "./src/components/SeatSelection/saga.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+      "issuerId": "./src/components/SeatSelection/reducer.js",
+      "issuerName": "./src/components/SeatSelection/reducer.js",
       "issuerPath": [
         {
           "id": 0,
@@ -37937,14 +37978,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": "./src/rootSaga.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/rootSaga.js",
-          "name": "./src/rootSaga.js"
+          "id": "./src/mainReducer.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/mainReducer.js",
+          "name": "./src/mainReducer.js"
         },
         {
-          "id": "./src/components/SeatSelection/saga.js",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/saga.js",
-          "name": "./src/components/SeatSelection/saga.js"
+          "id": "./src/components/SeatSelection/reducer.js",
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+          "name": "./src/components/SeatSelection/reducer.js"
         }
       ],
       "failed": false,
@@ -38309,7 +38350,7 @@
       "index2": 114,
       "size": 2069,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38372,7 +38413,7 @@
       "index2": 118,
       "size": 9519,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38441,7 +38482,7 @@
       "index2": 128,
       "size": 5045,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38510,7 +38551,7 @@
       "index2": 134,
       "size": 4858,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38577,7 +38618,7 @@
       "name": "./src/constants.js",
       "index": 137,
       "index2": 132,
-      "size": 2723,
+      "size": 2650,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -38689,7 +38730,7 @@
       "index2": 49,
       "size": 2027,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38737,7 +38778,7 @@
       "index2": 137,
       "size": 3117,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38789,7 +38830,7 @@
       "index2": 129,
       "size": 2843,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38853,7 +38894,7 @@
       "index2": 135,
       "size": 2781,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38915,9 +38956,9 @@
       "name": "./src/routes/index.js",
       "index": 53,
       "index2": 119,
-      "size": 4094,
+      "size": 4166,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -38982,173 +39023,5 @@
       "debug": false
     }
   },
-  "children": [
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "/",
-      "outputPath": "/Users/jitesh/Documents/movie-ticket-booking-ui/dist",
-      "assetsByChunkName": {
-        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
-      },
-      "assets": [
-        {
-          "name": "__child-HtmlWebpackPlugin_0",
-          "size": 6075,
-          "chunks": [
-            "HtmlWebpackPlugin_0"
-          ],
-          "chunkNames": [
-            "HtmlWebpackPlugin_0"
-          ],
-          "info": {},
-          "emitted": false
-        }
-      ],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "HtmlWebpackPlugin_0": {
-          "chunks": [
-            "HtmlWebpackPlugin_0"
-          ],
-          "assets": [
-            "__child-HtmlWebpackPlugin_0"
-          ],
-          "children": {},
-          "childAssets": {}
-        }
-      },
-      "namedChunkGroups": {
-        "HtmlWebpackPlugin_0": {
-          "chunks": [
-            "HtmlWebpackPlugin_0"
-          ],
-          "assets": [
-            "__child-HtmlWebpackPlugin_0"
-          ],
-          "children": {},
-          "childAssets": {}
-        }
-      },
-      "chunks": [
-        {
-          "id": "HtmlWebpackPlugin_0",
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "size": 1980,
-          "names": [
-            "HtmlWebpackPlugin_0"
-          ],
-          "files": [
-            "__child-HtmlWebpackPlugin_0"
-          ],
-          "hash": "6d2bfe30cab84974ade5",
-          "siblings": [],
-          "parents": [],
-          "children": [],
-          "childrenByOrder": {},
-          "modules": [
-            {
-              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/html-webpack-plugin/lib/loader.js!/Users/jitesh/Documents/movie-ticket-booking-ui/public/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
-              "index": 0,
-              "index2": 0,
-              "size": 1980,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                "HtmlWebpackPlugin_0"
-              ],
-              "issuer": null,
-              "issuerId": null,
-              "issuerName": null,
-              "issuerPath": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": null,
-                  "module": null,
-                  "moduleName": null,
-                  "type": "single entry",
-                  "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/html-webpack-plugin/lib/loader.js!/Users/jitesh/Documents/movie-ticket-booking-ui/public/index.html",
-                  "loc": "HtmlWebpackPlugin_0"
-                }
-              ],
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 0
-            }
-          ],
-          "filteredModules": 0,
-          "origins": [
-            {
-              "module": "",
-              "moduleIdentifier": "",
-              "moduleName": "",
-              "loc": "HtmlWebpackPlugin_0",
-              "request": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/html-webpack-plugin/lib/loader.js!/Users/jitesh/Documents/movie-ticket-booking-ui/public/index.html",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/html-webpack-plugin/lib/loader.js!/Users/jitesh/Documents/movie-ticket-booking-ui/public/index.html",
-          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
-          "index": 0,
-          "index2": 0,
-          "size": 1980,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            "HtmlWebpackPlugin_0"
-          ],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": null,
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "type": "single entry",
-              "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/html-webpack-plugin/lib/loader.js!/Users/jitesh/Documents/movie-ticket-booking-ui/public/index.html",
-              "loc": "HtmlWebpackPlugin_0"
-            }
-          ],
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0
-        }
-      ],
-      "filteredModules": 0,
-      "logging": {
-        "webpack.buildChunkGraph.visitModules": {
-          "entries": [],
-          "filteredEntries": 2,
-          "debug": false
-        }
-      },
-      "children": [],
-      "name": "HtmlWebpackCompiler"
-    }
-  ]
+  "children": []
 }
