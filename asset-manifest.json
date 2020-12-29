@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/movie-ticket-booking-ui/static/css/main.ec77fb31.chunk.css",
-    "main.js": "/movie-ticket-booking-ui/static/js/main.182000e0.chunk.js",
-    "main.js.map": "/movie-ticket-booking-ui/static/js/main.182000e0.chunk.js.map",
+    "main.js": "/movie-ticket-booking-ui/static/js/main.4cb633ba.chunk.js",
+    "main.js.map": "/movie-ticket-booking-ui/static/js/main.4cb633ba.chunk.js.map",
     "runtime-main.js": "/movie-ticket-booking-ui/static/js/runtime-main.8b622a45.js",
     "runtime-main.js.map": "/movie-ticket-booking-ui/static/js/runtime-main.8b622a45.js.map",
     "static/js/2.85d50b10.chunk.js": "/movie-ticket-booking-ui/static/js/2.85d50b10.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.8b622a45.js",
     "static/js/2.85d50b10.chunk.js",
     "static/css/main.ec77fb31.chunk.css",
-    "static/js/main.182000e0.chunk.js"
+    "static/js/main.4cb633ba.chunk.js"
   ]
 }

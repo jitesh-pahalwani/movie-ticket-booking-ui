@@ -4,16 +4,16 @@
     "\nsrc/components/Home/index.js\n  \u001b[1mLine 16:8:\u001b[22m  React Hook useEffect has a missing dependency: 'fetchMovies'. Either include it or remove the dependency array. If 'fetchMovies' changes too often, find the parent component that defines it and wrap that definition in useCallback  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\nsrc/components/MovieDetail/index.js\n  \u001b[1mLine 15:8:\u001b[22m  React Hook useEffect has a missing dependency: 'fetchVenues'. Either include it or remove the dependency array. If 'fetchVenues' changes too often, find the parent component that defines it and wrap that definition in useCallback  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\nsrc/components/PaymentModal/index.js\n  \u001b[1mLine 15:26:\u001b[22m  Assignments to the 'paymentTimeout' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\nsrc/components/SeatSelection/index.js\n  \u001b[1mLine 17:8:\u001b[22m  React Hook useEffect has a missing dependency: 'fetchAvailabilities'. Either include it or remove the dependency array. If 'fetchAvailabilities' changes too often, find the parent component that defines it and wrap that definition in useCallback  \u001b[33m\u001b[4mreact-hooks/exhaustive-deps\u001b[24m\u001b[39m\n\n"
   ],
   "version": "4.44.2",
-  "hash": "9c95583e209d45fc2e29",
-  "time": 6556,
-  "builtAt": 1609263521792,
+  "hash": "c22dc0f14c0389c444e8",
+  "time": 6777,
+  "builtAt": 1609264543713,
   "publicPath": "/movie-ticket-booking-ui/",
   "outputPath": "/Users/jitesh/Documents/movie-ticket-booking-ui/build",
   "assetsByChunkName": {
     "main": [
       "static/css/main.ec77fb31.chunk.css",
-      "static/js/main.182000e0.chunk.js",
-      "static/js/main.182000e0.chunk.js.map"
+      "static/js/main.4cb633ba.chunk.js",
+      "static/js/main.4cb633ba.chunk.js.map"
     ],
     "runtime-main": [
       "static/js/runtime-main.8b622a45.js",
@@ -197,8 +197,8 @@
       "emitted": true
     },
     {
-      "name": "static/js/main.182000e0.chunk.js",
-      "size": 14491,
+      "name": "static/js/main.4cb633ba.chunk.js",
+      "size": 14611,
       "chunks": [
         0
       ],
@@ -208,13 +208,13 @@
       "info": {
         "immutable": true,
         "minimized": true,
-        "size": 14491
+        "size": 14611
       },
       "emitted": true
     },
     {
-      "name": "static/js/main.182000e0.chunk.js.map",
-      "size": 35621,
+      "name": "static/js/main.4cb633ba.chunk.js.map",
+      "size": 35746,
       "chunks": [
         0
       ],
@@ -223,7 +223,7 @@
       ],
       "info": {
         "development": true,
-        "size": 35621
+        "size": 35746
       },
       "emitted": true
     },
@@ -273,8 +273,8 @@
         "static/js/2.85d50b10.chunk.js",
         "static/js/2.85d50b10.chunk.js.map",
         "static/css/main.ec77fb31.chunk.css",
-        "static/js/main.182000e0.chunk.js",
-        "static/js/main.182000e0.chunk.js.map"
+        "static/js/main.4cb633ba.chunk.js",
+        "static/js/main.4cb633ba.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -293,8 +293,8 @@
         "static/js/2.85d50b10.chunk.js",
         "static/js/2.85d50b10.chunk.js.map",
         "static/css/main.ec77fb31.chunk.css",
-        "static/js/main.182000e0.chunk.js",
-        "static/js/main.182000e0.chunk.js.map"
+        "static/js/main.4cb633ba.chunk.js",
+        "static/js/main.4cb633ba.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -306,16 +306,16 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 31690,
+      "size": 31810,
       "names": [
         "main"
       ],
       "files": [
         "static/css/main.ec77fb31.chunk.css",
-        "static/js/main.182000e0.chunk.js",
-        "static/js/main.182000e0.chunk.js.map"
+        "static/js/main.4cb633ba.chunk.js",
+        "static/js/main.4cb633ba.chunk.js.map"
       ],
-      "hash": "e4ffe153fc17926d32fb",
+      "hash": "d67bf04d761017d11030",
       "siblings": [
         1,
         2
@@ -760,7 +760,7 @@
           "name": "./src/index.js + 19 modules",
           "index": 0,
           "index2": 117,
-          "size": 27074,
+          "size": 27194,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -908,7 +908,7 @@
               "name": "./src/routes/index.js",
               "index": 23,
               "index2": 97,
-              "size": 652,
+              "size": 724,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1088,7 +1088,7 @@
               "name": "./src/components/Home/index.js",
               "index": 24,
               "index2": 80,
-              "size": 2076,
+              "size": 2100,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1135,7 +1135,7 @@
                   "moduleName": "./src/routes/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Home",
-                  "loc": "1:442-446"
+                  "loc": "1:466-470"
                 }
               ],
               "usedExports": [
@@ -1153,7 +1153,7 @@
               "name": "./src/components/MovieDetail/index.js",
               "index": 84,
               "index2": 89,
-              "size": 3653,
+              "size": 3677,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1200,7 +1200,7 @@
                   "moduleName": "./src/routes/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/MovieDetail",
-                  "loc": "1:532-543"
+                  "loc": "1:580-591"
                 }
               ],
               "usedExports": [
@@ -1265,7 +1265,7 @@
                   "moduleName": "./src/routes/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../components/SeatSelection",
-                  "loc": "1:627-640"
+                  "loc": "1:699-712"
                 }
               ],
               "usedExports": [
@@ -1613,7 +1613,7 @@
                   "moduleName": "./src/components/Home/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../Header",
-                  "loc": "1:1206-1212"
+                  "loc": "1:1230-1236"
                 },
                 {
                   "moduleId": null,
@@ -1622,7 +1622,7 @@
                   "moduleName": "./src/components/MovieDetail/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../Header",
-                  "loc": "1:1763-1769"
+                  "loc": "1:1787-1793"
                 },
                 {
                   "moduleId": null,
@@ -1701,7 +1701,7 @@
                   "moduleName": "./src/components/Home/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../MovieTile",
-                  "loc": "1:1009-1018"
+                  "loc": "1:1033-1042"
                 }
               ],
               "usedExports": [
@@ -1922,7 +1922,7 @@
                   "moduleName": "./src/components/Home/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./actions",
-                  "loc": "1:1886-1898"
+                  "loc": "1:1910-1922"
                 }
               ],
               "usedExports": [
@@ -2405,7 +2405,7 @@
                   "moduleName": "./src/components/Home/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../SeatSelection/actions",
-                  "loc": "1:1969-1986"
+                  "loc": "1:1993-2010"
                 },
                 {
                   "moduleId": null,
@@ -2414,7 +2414,7 @@
                   "moduleName": "./src/components/MovieDetail/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../SeatSelection/actions",
-                  "loc": "1:3456-3468"
+                  "loc": "1:3480-3492"
                 },
                 {
                   "moduleId": null,
@@ -2423,7 +2423,7 @@
                   "moduleName": "./src/components/MovieDetail/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "../SeatSelection/actions",
-                  "loc": "1:3539-3556"
+                  "loc": "1:3563-3580"
                 },
                 {
                   "moduleId": null,
@@ -4698,15 +4698,6 @@
               "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-35"
-            },
-            {
-              "moduleId": 15,
-              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js c9a136758d74928ac09e4a9fc33d22e2",
-              "module": "./node_modules/react-redux/es/index.js + 22 modules",
-              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-79"
             },
             {
@@ -4716,7 +4707,7 @@
               "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-51"
+              "loc": "1:0-35"
             },
             {
               "moduleId": 15,
@@ -4726,6 +4717,15 @@
               "type": "harmony side effect evaluation",
               "userRequest": "react",
               "loc": "1:0-35"
+            },
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js c9a136758d74928ac09e4a9fc33d22e2",
+              "module": "./node_modules/react-redux/es/index.js + 22 modules",
+              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-51"
             },
             {
               "moduleId": 15,
@@ -5527,7 +5527,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:0-43"
+              "loc": "1:0-45"
             },
             {
               "moduleId": 53,
@@ -5536,7 +5536,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:0-45"
+              "loc": "1:0-43"
             },
             {
               "moduleId": 53,
@@ -5707,16 +5707,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:437-441"
-            },
-            {
-              "moduleId": 53,
-              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-              "module": "./src/index.js + 19 modules",
-              "moduleName": "./src/index.js + 19 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react/jsx-runtime",
-              "loc": "1:466-470"
+              "loc": "1:461-465"
             },
             {
               "moduleId": 53,
@@ -5734,6 +5725,15 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
+              "loc": "1:490-494"
+            },
+            {
+              "moduleId": 53,
+              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+              "module": "./src/index.js + 19 modules",
+              "moduleName": "./src/index.js + 19 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react/jsx-runtime",
               "loc": "1:509-513"
             },
             {
@@ -5743,7 +5743,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:527-531"
+              "loc": "1:575-579"
             },
             {
               "moduleId": 53,
@@ -5752,7 +5752,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:563-567"
+              "loc": "1:611-615"
             },
             {
               "moduleId": 53,
@@ -5761,7 +5761,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:622-626"
+              "loc": "1:694-698"
             },
             {
               "moduleId": 53,
@@ -5779,7 +5779,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1004-1008"
+              "loc": "1:1028-1032"
             },
             {
               "moduleId": 53,
@@ -5788,7 +5788,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1165-1170"
+              "loc": "1:1189-1194"
             },
             {
               "moduleId": 53,
@@ -5797,7 +5797,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1201-1205"
+              "loc": "1:1225-1229"
             },
             {
               "moduleId": 53,
@@ -5806,7 +5806,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1230-1234"
+              "loc": "1:1254-1258"
             },
             {
               "moduleId": 53,
@@ -5824,7 +5824,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1344-1348"
+              "loc": "1:1368-1372"
             },
             {
               "moduleId": 53,
@@ -5842,15 +5842,6 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1423-1427"
-            },
-            {
-              "moduleId": 53,
-              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-              "module": "./src/index.js + 19 modules",
-              "moduleName": "./src/index.js + 19 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react/jsx-runtime",
               "loc": "1:1424-1428"
             },
             {
@@ -5860,7 +5851,16 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1529-1533"
+              "loc": "1:1447-1451"
+            },
+            {
+              "moduleId": 53,
+              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+              "module": "./src/index.js + 19 modules",
+              "moduleName": "./src/index.js + 19 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react/jsx-runtime",
+              "loc": "1:1553-1557"
             },
             {
               "moduleId": 53,
@@ -5878,7 +5878,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1722-1727"
+              "loc": "1:1746-1751"
             },
             {
               "moduleId": 53,
@@ -5887,7 +5887,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1758-1762"
+              "loc": "1:1782-1786"
             },
             {
               "moduleId": 53,
@@ -5896,7 +5896,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1795-1799"
+              "loc": "1:1819-1823"
             },
             {
               "moduleId": 53,
@@ -5905,7 +5905,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1874-1878"
+              "loc": "1:1898-1902"
             },
             {
               "moduleId": 53,
@@ -5914,7 +5914,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:1980-1985"
+              "loc": "1:2004-2009"
             },
             {
               "moduleId": 53,
@@ -5923,7 +5923,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2016-2021"
+              "loc": "1:2040-2045"
             },
             {
               "moduleId": 53,
@@ -5932,7 +5932,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2086-2090"
+              "loc": "1:2110-2114"
             },
             {
               "moduleId": 53,
@@ -5950,7 +5950,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2160-2165"
+              "loc": "1:2184-2189"
             },
             {
               "moduleId": 53,
@@ -5968,15 +5968,6 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2225-2229"
-            },
-            {
-              "moduleId": 53,
-              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-              "module": "./src/index.js + 19 modules",
-              "moduleName": "./src/index.js + 19 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react/jsx-runtime",
               "loc": "1:2233-2237"
             },
             {
@@ -5986,7 +5977,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2307-2311"
+              "loc": "1:2249-2253"
             },
             {
               "moduleId": 53,
@@ -6004,7 +5995,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2396-2400"
+              "loc": "1:2331-2335"
             },
             {
               "moduleId": 53,
@@ -6013,7 +6004,16 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2484-2488"
+              "loc": "1:2420-2424"
+            },
+            {
+              "moduleId": 53,
+              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+              "module": "./src/index.js + 19 modules",
+              "moduleName": "./src/index.js + 19 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react/jsx-runtime",
+              "loc": "1:2508-2512"
             },
             {
               "moduleId": 53,
@@ -6040,7 +6040,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2574-2578"
+              "loc": "1:2598-2602"
             },
             {
               "moduleId": 53,
@@ -6058,16 +6058,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2667-2672"
-            },
-            {
-              "moduleId": 53,
-              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-              "module": "./src/index.js + 19 modules",
-              "moduleName": "./src/index.js + 19 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react/jsx-runtime",
-              "loc": "1:2744-2748"
+              "loc": "1:2691-2696"
             },
             {
               "moduleId": 53,
@@ -6085,7 +6076,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2834-2838"
+              "loc": "1:2768-2772"
             },
             {
               "moduleId": 53,
@@ -6103,7 +6094,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
-              "loc": "1:2919-2923"
+              "loc": "1:2858-2862"
             },
             {
               "moduleId": 53,
@@ -6113,6 +6104,15 @@
               "type": "harmony import specifier",
               "userRequest": "react/jsx-runtime",
               "loc": "1:2928-2932"
+            },
+            {
+              "moduleId": 53,
+              "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+              "module": "./src/index.js + 19 modules",
+              "moduleName": "./src/index.js + 19 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react/jsx-runtime",
+              "loc": "1:2943-2947"
             },
             {
               "moduleId": 53,
@@ -7061,7 +7061,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-              "loc": "1:1019-1032"
+              "loc": "1:1043-1056"
             },
             {
               "moduleId": 53,
@@ -7070,7 +7070,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-              "loc": "1:1033-1046"
+              "loc": "1:1057-1070"
             },
             {
               "moduleId": 53,
@@ -7292,9 +7292,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/Home/reducer.js",
+              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
               "issuerId": null,
-              "issuerName": "./src/components/Home/reducer.js",
+              "issuerName": "./src/components/SeatSelection/reducer.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -7313,8 +7313,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/Home/reducer.js",
-                  "name": "./src/components/Home/reducer.js"
+                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+                  "name": "./src/components/SeatSelection/reducer.js"
                 }
               ],
               "failed": false,
@@ -7455,7 +7455,7 @@
                   "moduleName": "./src/index.js + 19 modules",
                   "type": "harmony import specifier",
                   "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-                  "loc": "1:1019-1032"
+                  "loc": "1:1043-1056"
                 },
                 {
                   "moduleId": 53,
@@ -7464,7 +7464,7 @@
                   "moduleName": "./src/index.js + 19 modules",
                   "type": "harmony import specifier",
                   "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-                  "loc": "1:1033-1046"
+                  "loc": "1:1057-1070"
                 },
                 {
                   "moduleId": 53,
@@ -7707,8 +7707,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/Home/reducer.js",
-                  "name": "./src/components/Home/reducer.js"
+                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+                  "name": "./src/components/SeatSelection/reducer.js"
                 },
                 {
                   "id": null,
@@ -8752,7 +8752,7 @@
               "type": "harmony import specifier",
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "1:471-476"
+              "loc": "1:495-500"
             },
             {
               "moduleId": null,
@@ -8762,7 +8762,7 @@
               "type": "harmony import specifier",
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "1:568-573"
+              "loc": "1:616-621"
             },
             {
               "moduleId": null,
@@ -8772,7 +8772,7 @@
               "type": "harmony import specifier",
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "1:2014-2024"
+              "loc": "1:2038-2048"
             },
             {
               "moduleId": null,
@@ -8782,7 +8782,7 @@
               "type": "harmony import specifier",
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "1:3584-3594"
+              "loc": "1:3608-3618"
             },
             {
               "moduleId": null,
@@ -10877,7 +10877,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react-redux",
-              "loc": "1:2025-2032"
+              "loc": "1:2049-2056"
             },
             {
               "moduleId": 53,
@@ -10886,7 +10886,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react-redux",
-              "loc": "1:3595-3602"
+              "loc": "1:3619-3626"
             },
             {
               "moduleId": 53,
@@ -11011,7 +11011,7 @@
                   "moduleName": "./src/index.js + 19 modules",
                   "type": "harmony import specifier",
                   "userRequest": "react-redux",
-                  "loc": "1:2025-2032"
+                  "loc": "1:2049-2056"
                 },
                 {
                   "moduleId": 53,
@@ -11020,7 +11020,7 @@
                   "moduleName": "./src/index.js + 19 modules",
                   "type": "harmony import specifier",
                   "userRequest": "react-redux",
-                  "loc": "1:3595-3602"
+                  "loc": "1:3619-3626"
                 },
                 {
                   "moduleId": 53,
@@ -12095,9 +12095,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
+              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
               "issuerId": null,
-              "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+              "issuerName": "./node_modules/react-redux/es/hooks/useSelector.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -12116,8 +12116,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-                  "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
+                  "name": "./node_modules/react-redux/es/hooks/useSelector.js"
                 }
               ],
               "failed": false,
@@ -12483,9 +12483,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useStore.js",
+              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
               "issuerId": null,
-              "issuerName": "./node_modules/react-redux/es/hooks/useStore.js",
+              "issuerName": "./node_modules/react-redux/es/hooks/useSelector.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -12504,8 +12504,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useStore.js",
-                  "name": "./node_modules/react-redux/es/hooks/useStore.js"
+                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
+                  "name": "./node_modules/react-redux/es/hooks/useSelector.js"
                 }
               ],
               "failed": false,
@@ -12911,9 +12911,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
+              "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
               "issuerId": null,
-              "issuerName": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+              "issuerName": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -12937,13 +12937,13 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/selectorFactory.js",
-                  "name": "./node_modules/react-redux/es/connect/selectorFactory.js"
+                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/mergeProps.js",
+                  "name": "./node_modules/react-redux/es/connect/mergeProps.js"
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
-                  "name": "./node_modules/react-redux/es/connect/verifySubselectors.js"
+                  "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
+                  "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js"
                 }
               ],
               "failed": false,
@@ -16582,9 +16582,9 @@
           "chunks": [
             3
           ],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/scopeTab.js",
-          "issuerId": 62,
-          "issuerName": "./node_modules/react-modal/lib/helpers/scopeTab.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/focusManager.js",
+          "issuerId": 61,
+          "issuerName": "./node_modules/react-modal/lib/helpers/focusManager.js",
           "issuerPath": [
             {
               "id": null,
@@ -16627,9 +16627,9 @@
               "name": "./node_modules/react-modal/lib/components/ModalPortal.js"
             },
             {
-              "id": 62,
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/scopeTab.js",
-              "name": "./node_modules/react-modal/lib/helpers/scopeTab.js"
+              "id": 61,
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/focusManager.js",
+              "name": "./node_modules/react-modal/lib/helpers/focusManager.js"
             }
           ],
           "failed": false,
@@ -19360,15 +19360,6 @@
           "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-35"
-        },
-        {
-          "moduleId": 15,
-          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js c9a136758d74928ac09e4a9fc33d22e2",
-          "module": "./node_modules/react-redux/es/index.js + 22 modules",
-          "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-79"
         },
         {
@@ -19378,7 +19369,7 @@
           "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-51"
+          "loc": "1:0-35"
         },
         {
           "moduleId": 15,
@@ -19388,6 +19379,15 @@
           "type": "harmony side effect evaluation",
           "userRequest": "react",
           "loc": "1:0-35"
+        },
+        {
+          "moduleId": 15,
+          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/index.js c9a136758d74928ac09e4a9fc33d22e2",
+          "module": "./node_modules/react-redux/es/index.js + 22 modules",
+          "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-51"
         },
         {
           "moduleId": 15,
@@ -20189,7 +20189,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:0-43"
+          "loc": "1:0-45"
         },
         {
           "moduleId": 53,
@@ -20198,7 +20198,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:0-45"
+          "loc": "1:0-43"
         },
         {
           "moduleId": 53,
@@ -20369,16 +20369,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:437-441"
-        },
-        {
-          "moduleId": 53,
-          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-          "module": "./src/index.js + 19 modules",
-          "moduleName": "./src/index.js + 19 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react/jsx-runtime",
-          "loc": "1:466-470"
+          "loc": "1:461-465"
         },
         {
           "moduleId": 53,
@@ -20396,6 +20387,15 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
+          "loc": "1:490-494"
+        },
+        {
+          "moduleId": 53,
+          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+          "module": "./src/index.js + 19 modules",
+          "moduleName": "./src/index.js + 19 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react/jsx-runtime",
           "loc": "1:509-513"
         },
         {
@@ -20405,7 +20405,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:527-531"
+          "loc": "1:575-579"
         },
         {
           "moduleId": 53,
@@ -20414,7 +20414,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:563-567"
+          "loc": "1:611-615"
         },
         {
           "moduleId": 53,
@@ -20423,7 +20423,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:622-626"
+          "loc": "1:694-698"
         },
         {
           "moduleId": 53,
@@ -20441,7 +20441,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1004-1008"
+          "loc": "1:1028-1032"
         },
         {
           "moduleId": 53,
@@ -20450,7 +20450,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1165-1170"
+          "loc": "1:1189-1194"
         },
         {
           "moduleId": 53,
@@ -20459,7 +20459,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1201-1205"
+          "loc": "1:1225-1229"
         },
         {
           "moduleId": 53,
@@ -20468,7 +20468,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1230-1234"
+          "loc": "1:1254-1258"
         },
         {
           "moduleId": 53,
@@ -20486,7 +20486,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1344-1348"
+          "loc": "1:1368-1372"
         },
         {
           "moduleId": 53,
@@ -20504,15 +20504,6 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1423-1427"
-        },
-        {
-          "moduleId": 53,
-          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-          "module": "./src/index.js + 19 modules",
-          "moduleName": "./src/index.js + 19 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react/jsx-runtime",
           "loc": "1:1424-1428"
         },
         {
@@ -20522,7 +20513,16 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1529-1533"
+          "loc": "1:1447-1451"
+        },
+        {
+          "moduleId": 53,
+          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+          "module": "./src/index.js + 19 modules",
+          "moduleName": "./src/index.js + 19 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react/jsx-runtime",
+          "loc": "1:1553-1557"
         },
         {
           "moduleId": 53,
@@ -20540,7 +20540,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1722-1727"
+          "loc": "1:1746-1751"
         },
         {
           "moduleId": 53,
@@ -20549,7 +20549,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1758-1762"
+          "loc": "1:1782-1786"
         },
         {
           "moduleId": 53,
@@ -20558,7 +20558,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1795-1799"
+          "loc": "1:1819-1823"
         },
         {
           "moduleId": 53,
@@ -20567,7 +20567,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1874-1878"
+          "loc": "1:1898-1902"
         },
         {
           "moduleId": 53,
@@ -20576,7 +20576,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:1980-1985"
+          "loc": "1:2004-2009"
         },
         {
           "moduleId": 53,
@@ -20585,7 +20585,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2016-2021"
+          "loc": "1:2040-2045"
         },
         {
           "moduleId": 53,
@@ -20594,7 +20594,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2086-2090"
+          "loc": "1:2110-2114"
         },
         {
           "moduleId": 53,
@@ -20612,7 +20612,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2160-2165"
+          "loc": "1:2184-2189"
         },
         {
           "moduleId": 53,
@@ -20630,15 +20630,6 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2225-2229"
-        },
-        {
-          "moduleId": 53,
-          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-          "module": "./src/index.js + 19 modules",
-          "moduleName": "./src/index.js + 19 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react/jsx-runtime",
           "loc": "1:2233-2237"
         },
         {
@@ -20648,7 +20639,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2307-2311"
+          "loc": "1:2249-2253"
         },
         {
           "moduleId": 53,
@@ -20666,7 +20657,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2396-2400"
+          "loc": "1:2331-2335"
         },
         {
           "moduleId": 53,
@@ -20675,7 +20666,16 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2484-2488"
+          "loc": "1:2420-2424"
+        },
+        {
+          "moduleId": 53,
+          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+          "module": "./src/index.js + 19 modules",
+          "moduleName": "./src/index.js + 19 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react/jsx-runtime",
+          "loc": "1:2508-2512"
         },
         {
           "moduleId": 53,
@@ -20702,7 +20702,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2574-2578"
+          "loc": "1:2598-2602"
         },
         {
           "moduleId": 53,
@@ -20720,16 +20720,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2667-2672"
-        },
-        {
-          "moduleId": 53,
-          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
-          "module": "./src/index.js + 19 modules",
-          "moduleName": "./src/index.js + 19 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react/jsx-runtime",
-          "loc": "1:2744-2748"
+          "loc": "1:2691-2696"
         },
         {
           "moduleId": 53,
@@ -20747,7 +20738,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2834-2838"
+          "loc": "1:2768-2772"
         },
         {
           "moduleId": 53,
@@ -20765,7 +20756,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
-          "loc": "1:2919-2923"
+          "loc": "1:2858-2862"
         },
         {
           "moduleId": 53,
@@ -20775,6 +20766,15 @@
           "type": "harmony import specifier",
           "userRequest": "react/jsx-runtime",
           "loc": "1:2928-2932"
+        },
+        {
+          "moduleId": 53,
+          "moduleIdentifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/index.js deb9ca725730c64362f164ac39bc1e09",
+          "module": "./src/index.js + 19 modules",
+          "moduleName": "./src/index.js + 19 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react/jsx-runtime",
+          "loc": "1:2943-2947"
         },
         {
           "moduleId": 53,
@@ -21723,7 +21723,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-          "loc": "1:1019-1032"
+          "loc": "1:1043-1056"
         },
         {
           "moduleId": 53,
@@ -21732,7 +21732,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-          "loc": "1:1033-1046"
+          "loc": "1:1057-1070"
         },
         {
           "moduleId": 53,
@@ -21954,9 +21954,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/Home/reducer.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
           "issuerId": null,
-          "issuerName": "./src/components/Home/reducer.js",
+          "issuerName": "./src/components/SeatSelection/reducer.js",
           "issuerPath": [
             {
               "id": null,
@@ -21975,8 +21975,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/Home/reducer.js",
-              "name": "./src/components/Home/reducer.js"
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+              "name": "./src/components/SeatSelection/reducer.js"
             }
           ],
           "failed": false,
@@ -22117,7 +22117,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-              "loc": "1:1019-1032"
+              "loc": "1:1043-1056"
             },
             {
               "moduleId": 53,
@@ -22126,7 +22126,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2",
-              "loc": "1:1033-1046"
+              "loc": "1:1057-1070"
             },
             {
               "moduleId": 53,
@@ -22369,8 +22369,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/Home/reducer.js",
-              "name": "./src/components/Home/reducer.js"
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-2!/Users/jitesh/Documents/movie-ticket-booking-ui/src/components/SeatSelection/reducer.js",
+              "name": "./src/components/SeatSelection/reducer.js"
             },
             {
               "id": null,
@@ -23414,7 +23414,7 @@
           "type": "harmony import specifier",
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "1:471-476"
+          "loc": "1:495-500"
         },
         {
           "moduleId": null,
@@ -23424,7 +23424,7 @@
           "type": "harmony import specifier",
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "1:568-573"
+          "loc": "1:616-621"
         },
         {
           "moduleId": null,
@@ -23434,7 +23434,7 @@
           "type": "harmony import specifier",
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "1:2014-2024"
+          "loc": "1:2038-2048"
         },
         {
           "moduleId": null,
@@ -23444,7 +23444,7 @@
           "type": "harmony import specifier",
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "1:3584-3594"
+          "loc": "1:3608-3618"
         },
         {
           "moduleId": null,
@@ -25539,7 +25539,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react-redux",
-          "loc": "1:2025-2032"
+          "loc": "1:2049-2056"
         },
         {
           "moduleId": 53,
@@ -25548,7 +25548,7 @@
           "moduleName": "./src/index.js + 19 modules",
           "type": "harmony import specifier",
           "userRequest": "react-redux",
-          "loc": "1:3595-3602"
+          "loc": "1:3619-3626"
         },
         {
           "moduleId": 53,
@@ -25673,7 +25673,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react-redux",
-              "loc": "1:2025-2032"
+              "loc": "1:2049-2056"
             },
             {
               "moduleId": 53,
@@ -25682,7 +25682,7 @@
               "moduleName": "./src/index.js + 19 modules",
               "type": "harmony import specifier",
               "userRequest": "react-redux",
-              "loc": "1:3595-3602"
+              "loc": "1:3619-3626"
             },
             {
               "moduleId": 53,
@@ -26757,9 +26757,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
           "issuerId": null,
-          "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuerName": "./node_modules/react-redux/es/hooks/useSelector.js",
           "issuerPath": [
             {
               "id": null,
@@ -26778,8 +26778,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/components/connectAdvanced.js",
-              "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
+              "name": "./node_modules/react-redux/es/hooks/useSelector.js"
             }
           ],
           "failed": false,
@@ -27145,9 +27145,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useStore.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
           "issuerId": null,
-          "issuerName": "./node_modules/react-redux/es/hooks/useStore.js",
+          "issuerName": "./node_modules/react-redux/es/hooks/useSelector.js",
           "issuerPath": [
             {
               "id": null,
@@ -27166,8 +27166,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useStore.js",
-              "name": "./node_modules/react-redux/es/hooks/useStore.js"
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/hooks/useSelector.js",
+              "name": "./node_modules/react-redux/es/hooks/useSelector.js"
             }
           ],
           "failed": false,
@@ -27573,9 +27573,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
+          "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
           "issuerId": null,
-          "issuerName": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+          "issuerName": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
           "issuerPath": [
             {
               "id": null,
@@ -27599,13 +27599,13 @@
             },
             {
               "id": null,
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/selectorFactory.js",
-              "name": "./node_modules/react-redux/es/connect/selectorFactory.js"
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/mergeProps.js",
+              "name": "./node_modules/react-redux/es/connect/mergeProps.js"
             },
             {
               "id": null,
-              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/connect/verifySubselectors.js",
-              "name": "./node_modules/react-redux/es/connect/verifySubselectors.js"
+              "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js"
             }
           ],
           "failed": false,
@@ -31620,7 +31620,7 @@
       "name": "./src/index.js + 19 modules",
       "index": 0,
       "index2": 117,
-      "size": 27074,
+      "size": 27194,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -31768,7 +31768,7 @@
           "name": "./src/routes/index.js",
           "index": 23,
           "index2": 97,
-          "size": 652,
+          "size": 724,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -31948,7 +31948,7 @@
           "name": "./src/components/Home/index.js",
           "index": 24,
           "index2": 80,
-          "size": 2076,
+          "size": 2100,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -31995,7 +31995,7 @@
               "moduleName": "./src/routes/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/Home",
-              "loc": "1:442-446"
+              "loc": "1:466-470"
             }
           ],
           "usedExports": [
@@ -32013,7 +32013,7 @@
           "name": "./src/components/MovieDetail/index.js",
           "index": 84,
           "index2": 89,
-          "size": 3653,
+          "size": 3677,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -32060,7 +32060,7 @@
               "moduleName": "./src/routes/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/MovieDetail",
-              "loc": "1:532-543"
+              "loc": "1:580-591"
             }
           ],
           "usedExports": [
@@ -32125,7 +32125,7 @@
               "moduleName": "./src/routes/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/SeatSelection",
-              "loc": "1:627-640"
+              "loc": "1:699-712"
             }
           ],
           "usedExports": [
@@ -32473,7 +32473,7 @@
               "moduleName": "./src/components/Home/index.js",
               "type": "harmony import specifier",
               "userRequest": "../Header",
-              "loc": "1:1206-1212"
+              "loc": "1:1230-1236"
             },
             {
               "moduleId": null,
@@ -32482,7 +32482,7 @@
               "moduleName": "./src/components/MovieDetail/index.js",
               "type": "harmony import specifier",
               "userRequest": "../Header",
-              "loc": "1:1763-1769"
+              "loc": "1:1787-1793"
             },
             {
               "moduleId": null,
@@ -32561,7 +32561,7 @@
               "moduleName": "./src/components/Home/index.js",
               "type": "harmony import specifier",
               "userRequest": "../MovieTile",
-              "loc": "1:1009-1018"
+              "loc": "1:1033-1042"
             }
           ],
           "usedExports": [
@@ -32782,7 +32782,7 @@
               "moduleName": "./src/components/Home/index.js",
               "type": "harmony import specifier",
               "userRequest": "./actions",
-              "loc": "1:1886-1898"
+              "loc": "1:1910-1922"
             }
           ],
           "usedExports": [
@@ -33265,7 +33265,7 @@
               "moduleName": "./src/components/Home/index.js",
               "type": "harmony import specifier",
               "userRequest": "../SeatSelection/actions",
-              "loc": "1:1969-1986"
+              "loc": "1:1993-2010"
             },
             {
               "moduleId": null,
@@ -33274,7 +33274,7 @@
               "moduleName": "./src/components/MovieDetail/index.js",
               "type": "harmony import specifier",
               "userRequest": "../SeatSelection/actions",
-              "loc": "1:3456-3468"
+              "loc": "1:3480-3492"
             },
             {
               "moduleId": null,
@@ -33283,7 +33283,7 @@
               "moduleName": "./src/components/MovieDetail/index.js",
               "type": "harmony import specifier",
               "userRequest": "../SeatSelection/actions",
-              "loc": "1:3539-3556"
+              "loc": "1:3563-3580"
             },
             {
               "moduleId": null,
@@ -33674,9 +33674,9 @@
       "chunks": [
         3
       ],
-      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/scopeTab.js",
-      "issuerId": 62,
-      "issuerName": "./node_modules/react-modal/lib/helpers/scopeTab.js",
+      "issuer": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/focusManager.js",
+      "issuerId": 61,
+      "issuerName": "./node_modules/react-modal/lib/helpers/focusManager.js",
       "issuerPath": [
         {
           "id": null,
@@ -33719,9 +33719,9 @@
           "name": "./node_modules/react-modal/lib/components/ModalPortal.js"
         },
         {
-          "id": 62,
-          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/scopeTab.js",
-          "name": "./node_modules/react-modal/lib/helpers/scopeTab.js"
+          "id": 61,
+          "identifier": "/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/babel-loader/lib/index.js??ref--5-oneOf-3!/Users/jitesh/Documents/movie-ticket-booking-ui/node_modules/react-modal/lib/helpers/focusManager.js",
+          "name": "./node_modules/react-modal/lib/helpers/focusManager.js"
         }
       ],
       "failed": false,
